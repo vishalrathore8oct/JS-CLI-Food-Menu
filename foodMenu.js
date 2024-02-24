@@ -733,3 +733,4 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 } else { // this is condition check for invalid meal type
     console.log("Please Enter a valid Meal Type");
 }
+
