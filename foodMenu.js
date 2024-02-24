@@ -71,7 +71,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
             } else { // this is condition to check when amount quantity is valid
 
                 const fullPlateAmount = 15 * PlateQuantity
-                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
+                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
                 const userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
@@ -147,7 +147,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
             } else { // this is condition to check when amount quantity is valid
 
                 const fullPlateAmount = 15 * PlateQuantity
-                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
+                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
                 const userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
@@ -223,7 +223,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
             } else { // this is condition to check when amount quantity is valid
 
                 const fullPlateAmount = 15 * PlateQuantity
-                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
+                console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
                 const userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
