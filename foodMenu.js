@@ -33,7 +33,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -43,7 +43,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -56,7 +56,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -72,7 +72,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -82,7 +82,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -94,7 +94,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -123,7 +123,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -133,7 +133,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -145,7 +145,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -160,7 +160,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -170,7 +170,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -182,7 +182,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -211,7 +211,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -221,7 +221,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -233,7 +233,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -248,7 +248,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -258,7 +258,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -270,7 +270,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -311,7 +311,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -321,7 +321,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -333,7 +333,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -348,7 +348,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -358,7 +358,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -370,7 +370,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -399,7 +399,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -409,7 +409,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -421,7 +421,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -436,7 +436,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -446,7 +446,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -458,7 +458,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -487,7 +487,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -497,7 +497,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -509,7 +509,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -524,7 +524,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -534,7 +534,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -546,7 +546,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -587,7 +587,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -597,7 +597,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -609,7 +609,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -624,7 +624,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -634,7 +634,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -646,7 +646,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -675,7 +675,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -685,7 +685,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -697,7 +697,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -712,7 +712,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -722,7 +722,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -734,7 +734,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -763,7 +763,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -773,7 +773,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${10}, Then
                 Your Total amount will be ${halfPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -785,7 +785,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${halfPlateAmount - userPaidAmount} Rs More.`);
 
                     halfPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your half palte pending amount is ${halfPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
@@ -800,7 +800,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
 
             console.log(`\nHello Sir/Mam you choose ${plateType.charAt(0).toUpperCase() + plateType.slice(1)}. So much quantity do you want of it.`);
 
-            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: \n"))
+            const PlateQuantity = Number(input("\nEnter you Plate Quantity Here in Number: "))
 
             if (PlateQuantity < 0 || isNaN(PlateQuantity)) { // this is condition to check when amount quantity is invalid
                 console.log("Please Enter the valid amount of Quantity");
@@ -810,7 +810,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                 console.log(`Your choose ${plateType}, and amount of ${plateType} is ${15}, Then
                 Your Total amount will be ${fullPlateAmount}`);
 
-                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. \n"))
+                let userPaidAmount = Number(input("\nPlease Enter the Amount, How much you will be pay Now. "))
 
                 // this is condition section to check whether the amount is equal, greater or lesser
 
@@ -822,7 +822,7 @@ if (mealType == "breakfast") { // this is condition check for breakfast meal typ
                     So you need to pay ${fullPlateAmount - userPaidAmount} Rs More.`);
 
                     fullPlateAmount -= userPaidAmount
-                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. \n"))
+                    userPaidAmount = Number(input("\nPlease Enter the Amount, How much you need to be pay Now. "))
                     console.log(`your full palte pending amount is ${fullPlateAmount} and you paid to restuarant is ${userPaidAmount}, 
                     So both amount are equals and you don't need to pay any money.`);
 
